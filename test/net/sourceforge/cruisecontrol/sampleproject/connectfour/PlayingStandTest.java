@@ -46,7 +46,7 @@ public class PlayingStandTest extends TestCase {
 
         stand.dropRed(0);
         stand.dropBlack(6);
-        asserTrue(stand.areFourConnected());////cambiado a flase
+        assertTrue(stand.areFourConnected());////cambiado a flase
 
         stand.dropRed(0);
         stand.dropBlack(6);
